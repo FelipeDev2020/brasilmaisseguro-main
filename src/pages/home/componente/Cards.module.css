@@ -1,0 +1,38 @@
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+.flip_container{
+    width: 400px;
+    height: 500px;
+    perspective: 1000px;
+    margin-left: 20px;
+}
+
+.flipper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flipper img{
+    width: 20vw;
+}
+
+.flip_container:hover .flipper{
+    transform: rotateY(180deg);
+}
+
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back{
+    transform: rotateY(180deg);
+}

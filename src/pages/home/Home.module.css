@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+
+
+.cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+
+.back{
+    width: 100vw;
+}
+
+.btn{
+    border: none;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+    width: 20vw;
+    color: #fff;
+    font-size: 2vw;
+    background-image: linear-gradient(to right, #008C40, #1DB763);
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+
+.link{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 25vh;
+    margin-left: 30vw;
+}
+
+/* serviço */
+
+.serv{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulo{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@media only screen and (max-width: 550px) {
+    .link{
+        margin-top: 12vh;
+    }
+}

@@ -1,0 +1,64 @@
+:root {
+    --primary-color: #0DD95E; /* Cor verde como exemplo, substitua pela cor desejada */
+}
+
+.lblTitle {
+    font-family: 'Roboto';
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+
+.form-selectDefault {
+    border-color: #666 !important ;
+    background-color: #D9D9D9 !important ;
+
+    -webkit-box-shadow: 5px 5px 5px transparent !important;
+    -moz-box-shadow: 5px 5px 5p transparent !important;
+    box-shadow: 5px 5px 5px transparent !important;
+    display:inline-block !important ;
+}
+
+.form-selectSelected {
+
+    border-color: #0DD95E !important ;
+    background-color: #fff !important ;
+
+    -webkit-box-shadow: 5px 5px 5px transparent !important;
+    -moz-box-shadow: 5px 5px 5p transparent !important;
+    box-shadow: 5px 5px 5px transparent !important;
+    display:inline-block !important ;
+    
+}
+
+.form-select:hover{
+
+    border-color: #0DD95E !important ;
+    background-color: #fff !important ;
+
+    -webkit-box-shadow: 5px 5px 5px #afecc7 !important;
+    -moz-box-shadow: 5px 5px 5p #afecc7 !important;
+    box-shadow: 5px 5px 5px #afecc7 !important;
+    display:inline-block !important ;
+    
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0DD95E;
+    border-color: #666;
+}
+
+.btn-primary:hover {
+    color: #ffffff;
+    background-color: #159e4c;
+    border-color: #666;
+    
+    -webkit-box-shadow: 5px 5px 5px #afecc7 !important;
+    -moz-box-shadow: 5px 5px 5p #afecc7 !important;
+    box-shadow: 5px 5px 5px #afecc7 !important;
+    display:inline-block !important ;
+}

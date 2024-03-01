@@ -1,0 +1,21 @@
+.nav-link {
+    margin: 0 30px;
+
+    border-bottom: 5px solid transparent;
+
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: black;
+}
+
+.nav-link:hover {
+    border-bottom: 5px solid #A7A7A7;
+
+    color: black;
+    font-weight: bold
+}
+
+
+.mt-menuLink {
+    margin-top: 6rem !important;
+}
